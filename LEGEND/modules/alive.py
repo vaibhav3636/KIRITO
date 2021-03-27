@@ -15,18 +15,18 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
-PHOTO = "https://telegra.ph/file/b068fc8dc8d9be627bf85.jpg"
+PHOTO = "https://telegra.ph/file/ea47d6949c36e59d9f697.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
-  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
+  LEGENDX = "HELLO THIS IS KIRITO \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
+  LEGENDX += f"MY MASTER {KANEKI} ☺️\n\n"
   LEGENDX += "FULLY UPDATED\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTON = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
+  BUTTON = [[Button.url("MASTER", "https://t.me/Ken_kenaki"), Button.url("DEVLOPER", "https://t.me/Kaneki_alt")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
@@ -50,21 +50,21 @@ async def callback_query_handler(event):
   global PHOTO
   legendx = event.sender.first_name
 # inline by LEGENDX22 and PROBOYX 🔥
-  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
+  LEGENDX = "HELLO THIS IS KIRITO \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
+  LEGENDX += f"MY MASTER {KANEKI} ☺️\n\n"
   LEGENDX += "FULLY UPDATED BOT\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTONS = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
+  BUTTONS = [[Button.url("MASTER", "https://t.me/ken_kenaki"), Button.url("DEVLOPER", "https://t.me/Kaneki_alt")]]
   BUTTONS += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
+  await tbot.send_message(event.chat, "REPO OF KIRITO", buttons=[[Button.url("🛡REPO🛡", "https://github.com/LEGENDXOP/LEGEND-X")]])
 # PROBOYX 🔥 LEGENDX22
 
 __help__ = """
