@@ -1,16 +1,12 @@
-# GRAND OFFICIAL 3.8
- GRAND OFFICIAL VERSION 3.8 IS RELEASED 😎😎
+# KIRITO 2.0
+ KIRITO VERSION 2.0 IS RELEASED ⚡⚡
 
 **You got any error contact me** 👇
-[LEGEND X](https://t.me/legendx22)
+[KANEKI](https://t.me/ken_kenaki)
 
-# FORK FULL SUPPORT BY LEGEND X
-# ADD LEGEND X ON DEVLIST
-# PLEASE ADD 😶
-# LEGENDX ID `1100231654`
 <details>
-<summary> GRAND OFFICIAL </summary>
-<img src="https://telegra.ph/file/1830075084b76b1b1aa24.jpg" />
+<summary> KIRITO </summary>
+<img src="https://telegra.ph/file/ea47d6949c36e59d9f697.jpg" />
 </details>
 Please read this 👇
 <details>
@@ -29,7 +25,5 @@ Deploy link 👇
 <details>
 <summary> Credits ❤️ </summary>
 <b> Credits</b>
-<h1> LEGEND X </h1>
-<h1> PROBOY X </h1>
-<h1> TEAMLEGEND </h1>
+<h1> KANEKI </h1>
 </details>
