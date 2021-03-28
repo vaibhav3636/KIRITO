@@ -1,5 +1,5 @@
-# KIRITO 2.0
- KIRITO VERSION 2.0 IS RELEASED ⚡⚡
+# KIRITO 3.8
+ KIRITO VERSION 3.8 IS RELEASED ⚡⚡
 
 **You got any error contact me** 👇
 [KANEKI](https://t.me/ken_kenaki)
@@ -14,16 +14,12 @@ Please read this 👇
 
 ```
  details, Deploy!
-1st fork kro fir main.py me changes kro fir heroku se manually deploy krlo
-Fir web ko off kro aur worker ko on kro fir agar koi error mile to
-Reveal config vars me jaao port ko delete krdo aur wheebook ko bhi the. WAIT 2-3 aur bot start🥰
+1st fork the repo and edit main.py then  heroku do  manually deploy.
+Then turn off web and turn on  worker.if any error come 👇
+Go to Reveal config vars and delete  port and webhook also. Then WAIT 2-3mins to  bot start🥰
 Deploy link 👇
 ```
 # [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
 </details>
-
 <details>
-<summary> Credits ❤️ </summary>
-<b> Credits</b>
-<h1> KANEKI </h1>
 </details>
