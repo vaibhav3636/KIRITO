@@ -39,7 +39,7 @@ if is_module_loaded(FILENAME):
                 result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
 
                 if message.chat.type == chat.SUPERGROUP and message.chat.username:
-                    result += f'\n<b>Link:</b> <a href="https://t.me/{chat.username}/{message.message_id}">click here</a>'
+                    result += f'\n<b>Link:</b> <a href="https://t.me/kiritobotlogs/{message.message_id}">click here</a>'
                 log_chat = sql.get_chat_log_channel(chat.id)
                 if log_chat:
                     send_log(context, log_chat, chat.id, result)
@@ -62,7 +62,7 @@ if is_module_loaded(FILENAME):
                 )
 
                 if message.chat.type == chat.SUPERGROUP and message.chat.username:
-                    result += f'\n<b>Link:</b> <a href="https://t.me/@kiritoupdates1/{message.message_id}">click here</a>'
+                    result += f'\n<b>Link:</b> <a href="https://t.me/kiritobotlogs/{message.message_id}">click here</a>'
                 log_chat = str(EVENT_LOGS)
                 if log_chat:
                     send_log(context, log_chat, chat.id, result)
@@ -111,7 +111,7 @@ if is_module_loaded(FILENAME):
             log_channel_info = bot.get_chat(log_channel)
             message.reply_text(
                 f"This group has all it's logs sent to:"
-                f" {escape_markdown(log_channel_info.title)} (`@kiritoupdates1`)",
+                f" {escape_markdown(log_channel_info.title)} (`kiritobotlogs`)",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -189,7 +189,7 @@ if is_module_loaded(FILENAME):
         log_channel = sql.get_chat_log_channel(chat_id)
         if log_channel:
             log_channel_info = dispatcher.bot.get_chat(log_channel)
-            return f"This group has all it's logs sent to: {escape_markdown(log_channel_info.title)} (`{log_channel}`)"
+            return f"This group has all it's logs sent to: {escape_markdown(log_channel_info.title)} (`kiritobotlogs`)"
         return "No log channel is set for this group!"
 
     __help__ = """
