@@ -62,7 +62,7 @@ if is_module_loaded(FILENAME):
                 )
 
                 if message.chat.type == chat.SUPERGROUP and message.chat.username:
-                    result += f'\n<b>Link:</b> <a href="https://t.me/{chat.username}/{message.message_id}">click here</a>'
+                    result += f'\n<b>Link:</b> <a href="https://t.me/@kiritoupdates1/{message.message_id}">click here</a>'
                 log_chat = str(EVENT_LOGS)
                 if log_chat:
                     send_log(context, log_chat, chat.id, result)
@@ -111,7 +111,7 @@ if is_module_loaded(FILENAME):
             log_channel_info = bot.get_chat(log_channel)
             message.reply_text(
                 f"This group has all it's logs sent to:"
-                f" {escape_markdown(log_channel_info.title)} (`{log_channel}`)",
+                f" {escape_markdown(log_channel_info.title)} (`@kiritoupdates1`)",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
